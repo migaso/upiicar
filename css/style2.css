@@ -1,0 +1,115 @@
+
+/* EXAMPLE 8 - Center on mobile*/
+	@media only screen and (max-width : 768px){
+  .example-8 .navbar-brand {
+  padding: 0px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+.example-8 .navbar-brand>img {
+  height: 100%;
+  width: auto;
+  padding: 7px 14px; 
+}
+}
+
+
+/* EXAMPLE 8 - Center Background */
+.example-8 .navbar-brand {
+  background: url(https://dl.dropboxusercontent.com/s/10fsel9h7ivy6ce/logo%20upiicar3.png?dl=0) center / contain no-repeat;
+  width: 200px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+
+
+
+.navbar-nav>li>.dropdown-menu {
+	z-index: 9999;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+
+
+#x{
+  padding-top: -10px;
+  padding-right: -20px;
+  padding-bottom: -50px;
+  padding-left: -20px;
+  margin-bottom: -5px;
+  font-size:180%;
+  
+}
+
+.sigueme{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+}
+
+.contenedor{
+  /*border: 1px solid blue;*/
+  position: relative;
+  top: 100px;
+  height: auto;
+  width: 60%;
+  margin-left: 20%;
+  padding-bottom: 30px;
+}
+
+.btn-default{
+  background-color:#5E99FF; 
+  padding: 3px 34px; 
+  font-size: 20px
+  border-radius: 10px;
+}
+
+.division{
+  margin-top: 40px;
+  padding-top: 20px;
+  /*border-top: solid 1px black;*/
+}
+
+.background-line {
+  display: table;
+  white-space: nowrap; }
+  .background-line:before, .background-line:after {
+    border-top: 1px solid #C0C0C0;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.8em;
+    width: 50%; }
+  .background-line > span {
+    padding: 0 20px;
+     }
+
+/*  sombreado de color en el navbar */
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+
+    background-color: #E100E1;
+    color: #FFF;
+}
+.color-fondo{
+  background:  #990099;
+}
+#color-letra
+{
+  color: #FFF;
+}
+
+.perfocult{}
+.verperf{}
+.busocult{}
+.verbus{}
+.compocult{}
+.vercomp{}

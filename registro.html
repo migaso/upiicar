@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regitro</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext'>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+   <nav class="navbar navbar-default navbar-inverse navbar-static-top example-8 navbar-fixed-top" >
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar8">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand text-hide" href="/UPIICAR">Brand Text
+        </a>
+      </div>
+
+      <div id="navbar8" class="navbar-collapse collapse">
+       <ul class="nav navbar-nav navbar-left">
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" ><p id=x class="tamano-menu"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span> 
+ </p> </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="quienes-somos.html">Quienes somos</a></li>
+              <li><a href="mision.html">Misión</a></li>
+              <li><a href="vision.html">Visión</a></li>
+              <!-- <li class="divider"></li>
+              <li class="dropdown-header">UPIICAR</li>
+              <li><a href="#">Iniciar Sesión</a></li>
+              <li><a href="#">Registrarte</a></li> -->
+            </ul>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="ayuda.html">Ayuda</a></li>
+          <li class="color-fondo"><a href="registro.html" id="color-letra"><span class="glyphicon glyphicon-user"></span> Registrate</a></li>
+          <li><a href="verify.php"><span class="glyphicon glyphicon-log-in"></span> Inicia Sesión</a></li>
+          
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </nav>
+
+  <div class="contenedor">
+    
+    <p class="background-line" style="color:#5E99FF">
+    <span>REGÍSTRATE PARA VIAJAR</span>
+    </p>
+    <form role="form1" action="register.php" method="post">
+    <h1>Cuenta</h1>  
+      <div class="form-group">
+        <label for="ejemplo_email_1">Email</label>
+        <input required="true" name="correo" type="email" class="form-control" id="ejemplo_email_1"
+               placeholder="Correo Institucional">
+        <br>
+        <label for="ejemplo_password_1">Contraseña</label>
+        <input required="true" name="pass" type="password" class="form-control" id="ejemplo_password_1" 
+               placeholder="Contraseña">
+      <br>
+      <label for="nombre">Nombre</label>
+      <br>
+      
+      <div class="row">
+        <div class="col-xs-4"><input required="true" name="ApellidoP" type="text" class="form-control" id="ejemplo_email_3"
+                 placeholder="Apellido Paterno"></div>
+        <div class="col-xs-4"><input required="true" name="ApellidoM" type="text" class="form-control" id="ejemplo_email_3"
+                 placeholder="Apellido Materno"></div>
+        <div class="col-xs-4"><input required="true" name="Nombre" type="text" class="form-control" id="ejemplo_email_2"
+                 placeholder="Nombre"></div>
+      </div>
+      <br>
+
+      <label for="nombre">Número de telefono movil</label>
+      <br>
+      <div class="row">
+        <div class="col-xs-12"><input required="true" name="Telefono" type="text" class="form-control" id="ejemplo_email_4" maxlength="10" placeholder="55 2222 2222"></div>
+      </div>
+
+      <!-- <h1>Horario</h1>
+      <p>(Formato: Lunes 12:00 p.m.)</p> 
+      <div id="diainput1" class="row clonedInput col-xs-6">
+        <input required="true" name="dia1" type="text" class="form-control" id="dia1" placeholder="Dia">
+      </div>
+      <div id="horainput1" class="row clonedInput2 col-xs-6"><input required="true" name="hora1" type="time" class="form-control" id="hora1">
+      </div>
+      <div class="row col-xs-12">
+      <br>
+      <input type="button" id="btnAdd" value="+"/>
+      <input type="button" id="btnDel" value="-"/>
+      </div>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <h1>Domicilio</h1> 
+      <label for="delegacion">Ubicación</label>
+      <div class="row">
+        <div class="col-xs-9"><input required="true" name="calle" type="text" class="form-control" id="calle"
+                 placeholder="Calle"></div>
+        <div class="col-xs-3"><input required="true" name="numerocalle" type="text" class="form-control" id="numerocalle" maxlength="5"
+                 placeholder="Número ext."></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xs-4"><input required="true" name="codp" type="text" class="form-control" id="codp" maxlength="5"
+                 placeholder="Código postal"></div>
+      </div>
+      <br>
+      <label for="delegacion">Delegación</label>
+        <select class="form-control" name="selector">
+          <option value="1">Venustiano Carranza</option>
+          <option value="2">Benito Juárez</option>
+        </select>
+      <br> -->
+      
+      </div>      
+      <h1>Perfil</h1>
+       <label for="sel1">Selecciona tu rol:</label>
+        <select class="form-control" name="selector">
+          <option value="1">Conductor</option>
+          <option value="2">Usuario</option>
+        </select>
+      <br>
+
+      <button type="submit" class="btn btn-default" style="">Enviar</button>
+    </form>
+    
+  </div>
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script> 
+ <script src="js/campo.js"></script>
+
+</body>
+</html>
