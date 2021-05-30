@@ -1,0 +1,477 @@
+
+/* EXAMPLE 8 - Center on mobile*/
+	@media only screen and (max-width : 768px){
+  .example-8 .navbar-brand {
+  padding: 0px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+.example-8 .navbar-brand>img {
+  height: 100%;
+  width: auto;
+  padding: 7px 14px; 
+}
+}
+
+
+/* EXAMPLE 8 - Center Background */
+.example-8 .navbar-brand {
+  background: url('../images/logo upiicar2.png') center / contain no-repeat;
+  width: 200px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+
+
+
+.navbar-nav>li>.dropdown-menu {
+	z-index: 9999;
+}
+
+/* eso no quita lo activo*/
+.navbar-nav>li>.dropdown-menu>li>a:hover {
+  z-index: 9999;
+  background-color:#E100E1; 
+  color:white;
+}
+
+
+
+
+
+.open > ul > li:hover {
+    background: #E100E1;
+    color:white;
+
+}
+
+body {
+  font-family: "Lato";
+}
+
+#x{
+  padding-top: -10px;
+  padding-right: -20px;
+  padding-bottom: -50px;
+  padding-left: -20px;
+  margin-bottom: -8px;
+  font-size:170%;
+  
+}
+
+h1{
+  font-family: "lato";
+  font-weight: bold;
+}
+div > div > div > div > div > div > div > h2{
+  font-family: 'lato', sans-serif;
+  color:white;
+}
+<!--css imagenes -->
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top {
+  opacity:0;
+}
+
+
+#imagen1{
+  width: 100%;
+    height: auto;
+}
+#imagen2{
+  width: 100%;
+    height: auto;
+    
+}
+
+  @keyframes cf3FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#cf img.top {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+
+#row-well{
+  background:#2E2E2E;
+  padding-bottom:auto;
+  height: auto;
+  margin-bottom: 80px;
+  
+  
+}
+.clearfix {
+  overflow: initial;
+  
+}
+.color-well{
+  background:#0B3B17;
+  
+}
+li{
+  color:white;
+}
+body {
+    background-image: #fff;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+.img-responsive{
+  
+  margin:0 auto;
+}
+.altura{
+  margin:0px;
+  height: 33%;
+}
+.nav-margin{
+  margin-top:10px;
+  
+}
+h1{
+  margin-top: 100px;
+  padding: 60px 0px 0px 0px;
+}
+/*=== Footer  ===*/
+
+footer{
+  background:#333;
+  color: #eee;
+  font-size: 11px;
+  padding: 20px;
+}
+
+
+.footer-container{
+  margin-bottom:20px;
+}
+#color-a{
+
+  padding-left: 0px; 
+}
+#color-a-privacidad{
+
+  padding-left: 0px; 
+}
+.footer2{
+  background:#111;
+  color: #eee;
+  font-size: 11px;
+  padding: 15px;
+  margin:-20px;
+}
+
+
+
+/* visited link */
+footer a{
+  color:white;
+}
+footer a:hover {
+    color: #E100E1 !important;
+    text-decoration: none;
+}
+p{
+  color:000;
+}
+
+/* mouse over link */
+
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
+/*Iconos FB etc*/
+
+.demopadding {
+  margin:50px auto;
+  width:140px;
+  text-align:center;
+}
+.icon {
+	position:relative;
+	text-align:center;
+	width:0px;
+	height:0px;
+	padding:20px;
+	border-top-right-radius: 	20px;
+	border-top-left-radius: 	20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 	20px; 
+	-moz-border-radius: 		20px 20px 20px 20px;
+	-webkit-border-radius: 		20px 20px 20px 20px;
+	-khtml-border-radius: 		20px 20px 20px 20px; 	
+	color:#FFFFFF;
+}
+.icon i {
+	font-size:20px;
+	position:absolute;
+	left:9px;
+	top:10px;
+}
+.icon.social {
+	float:left;
+	margin:0 5px 0 0;
+	cursor:pointer;
+	background:#6d6e71 ;
+	color:#262626;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+}
+.icon.social:hover {
+	background:#262626 ;
+	color:#6d6e71;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	-webkit-filter:	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-moz-filter: 	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-ms-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-o-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	filter: 			drop-shadow(0 1px 10px rgba(0,0,0,.8));	 	
+}
+.icon.social.fb i {
+	left:13px;
+	top:10px;
+}
+.icon.social.tw i {
+	left:11px;
+}
+.icon.social.in i {
+	left:11px;
+}
+
+/* margen de inicio*/
+.margen{
+  margin-top:50px;
+  padding-right: 10%;
+  padding-left:10% ; 
+  margin-bottom: 50px;
+
+}
+
+
+.navbar-default .navbar-nav > li >a:hover /* mantiene el menu activo despues de click  .navbar-default .navbar-nav > li > a:focus */{
+
+    background-color: #E100E1;
+    color: #FFF;
+}
+.color-fondo{
+  background:  #990099;
+}
+#color-letra
+{
+  color: #FFF;
+}
+.color-fondo2{
+  background-color:  #990099;
+}
+
+.navbar-default .navbar > li > a:hover, .navbar-default .navbar > li > a:focus {
+
+    background-color: #E100E1;
+    color: #FFF;
+}
+.color-letra2{
+  color: black;
+}
+
+/*side bar*/
+/* bootstrap 3 helpers */
+
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+
+
+@media (min-width:700px) {
+  #sidebar.affix-top {
+    position: absolute;
+    margin-top:400px;
+    width:200px;
+  }
+  /*Grande*/
+  #sidebar.affix {
+    position: fixed;
+    top:25px;
+    width:200px;
+    margin-top:180px;
+  }
+
+}
+.affix,.affix-top {
+  position:relative ;
+  margin-top:150px;
+}
+
+.botton-top-margen{
+
+  margin:10px 10px;
+}
+
+/*bar Margin*/
+.margin-bar-text{
+  margin-top: 25px; 
+}
+/*font text*/
+
+.font-text{
+  font-family:"lato";
+  font-size: 17px;
+  color:white;
+  text-align: justify;
+}
+.font-text2{
+  font-family:"lato";
+  font-size: 14px;
+  color:white;
+  text-align: justify;
+  padding: 20px 50px 20px 50px; 
+}
+
+.hoja-icon{
+  width: 30%;
+}
+.car-pool-logo{
+  width:30%;
+  margin-top: 20px;
+}
+
+.upiicar-logo{
+  margin-top: 15px;
+  width:40%;
+}
+div div div div div h2 {
+  text-align: center;
+
+}
+
+/*row flex*/
+
+.row.is-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.is-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+* And with max cross-browser enabled.
+* Nobody should ever write this by hand. 
+* Use a preprocesser with autoprefixing.
+*/
+.row.is-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.row.is-flex > [class*='col-'] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+/*center image*/
+.img-responsive {
+     margin: 0 auto;
+ }
+ .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto; 
+    margin-bottom :auto;
+ }
+
+ /*right margin text bar*/
+
+ .right-margin-bar{
+    margin-right: 0px;
+ }
+
+ footer ul {
+  list-style-type: none;
+}
+.color-bar{
+  color:white !important;
+
+}
+.logo-drop{
+  margin-top: -2px;
+  margin-bottom: 0px;
+  padding:0px 0px 7px 0px;
+}
+
+/*background image of barr window*/
+.background-bar{
+  background-image: url("http://fondopantalla.com.es/file/634/600x338/16:9/teselas-de-color-verde_2136549561.jpg");
+}
+.background-condiciones{
+  background-image: url("http://m.99wallpaper.com/images/7_1306/Black%20Background%20%20Collapsar%20-%201920x1200%20by%20Freeman.jpg");
+   width: 100%;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.7), 0 16px 90px 0 rgba(0, 0, 0, 0.49);
+  text-align: center;
+}
+
+ div>div>div>div> h2 {
+  text-align: center;
+  color:white;
+}
+#mision-text{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.well {
+    background: #006600;
+}

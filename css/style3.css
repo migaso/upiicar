@@ -1,0 +1,199 @@
+/*Hover sobre el menu logo usuario*/
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+/*Tamano y formatio de logo usuario */
+#user-logo-size{
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  font-size:15px;
+  
+}
+
+.navbar-login
+{
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size
+{
+    font-size: 87px;
+    color:black;
+}
+
+nav .dropdown-menu .col-lg-8 {
+	color:black;
+}
+
+.open {
+    background: white;
+    color:black !important;
+
+
+}
+
+
+
+
+.open > ul >  .ilumina-blanco:hover /** Importante  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/{
+    background: white;
+    color:black;
+}
+.open > ul >  .ddd:hover /** Importante  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/{
+    background: #E100E1;
+    color:white;
+
+}
+.open .text-color-logout /** Importante  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/{
+   
+    color:#000 ;
+}
+
+
+/*side bar**/
+body {
+  background: #F1F3FA;
+}
+
+/* Profile container */
+.profile {
+  margin: 100px 0;
+}
+
+/* Profile sidebar */
+
+
+.icon-size2
+{
+    font-size: 180px;
+    color:black;
+}
+
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+    
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;/**gris inactivo**/
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #ffe6ff;
+  color: #b300b3;
+}
+
+.profile-usermenu ul li.active { /*Afecta a los li que tienen clase active*/
+ border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li.active a {
+  color: #b300b3;
+  background-color: #ffe6ff;
+  border-left: 2px solid #800080;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}
+
+/*target active button*/
+.perfocult{display: none;}
+.verperf{display: block;}
+.busocult{display: none;}
+.verbus{display: block;}
+.compocult{display: none;}
+.vercomp{display: block;}
+.solocult{display: none;}
+.versol{display: block;}
+
+

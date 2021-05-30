@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inicio de sesion</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext'>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+ <nav class="navbar navbar-default navbar-inverse navbar-static-top example-8 navbar-fixed-top" >
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar8">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand text-hide" href="/UPIICAR">Brand Text
+        </a>
+      </div>
+
+      <div id="navbar8" class="navbar-collapse collapse">
+       <ul class="nav navbar-nav navbar-left">
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" ><p id=x class="tamano-menu"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span> 
+ </p> </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="quienes-somos.html">Quienes somos</a></li>
+              <li><a href="mision.html">Misión</a></li>
+              <li><a href="vision.html.">Visión</a></li>
+              <!-- <li class="divider"></li>
+              <li class="dropdown-header">UPIICAR</li>
+              <li><a href="#">Iniciar Sesión</a></li>
+              <li><a href="#">Registrarte</a></li> -->
+            </ul>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li ><a href="ayuda.html">Ayuda</a></li>
+          <li class="color-fondo"><a href="registro.html" id="color-letra"><span class="glyphicon glyphicon-user"></span> Registrate</a></li>
+          <li><a href="verify.php"><span class="glyphicon glyphicon-log-in"></span> Inicia Sesión</a></li>
+          
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </nav>
+
+ 	<div class="contenedor">
+		
+		<p class="background-line" style="color:#6ACC1A">
+		<span>INGRESA</span>
+		</p>
+		<form role="form1" action="login.php" method="post">
+			
+		  <div class="form-group">
+		  	 <label for="sel1">Selecciona tu perfil:</label>
+			  <select class="form-control" name="selector">
+			    <option value="1">Conductor</option>
+			    <option value="2">Usuario</option>
+			  </select>
+		    <label for="ejemplo_email_1">Email</label>
+		    <input required="true" name="correo" type="email" class="form-control" id="ejemplo_email_1"
+		           placeholder="Introduce tu email">
+		  </div>
+		  <div class="form-group">
+		    <label for="ejemplo_password_1">Contraseña</label>
+		    <input required="true" name="pass" type="password" class="form-control" id="ejemplo_password_1" 
+		           placeholder="Contraseña">
+		  </div>
+		  <div class="checkbox">
+		    <label>
+		      <input type="checkbox" name="recuerda" value="1"> Recuerdame
+		    </label>
+		  </div>
+		  <div class="form-group">
+		    <p class="help-block">
+		    <a href="contra.html" style="text-decoration:none;">
+		    ¿Has olvidado tu contraseña?
+		    </a>
+		    </p>
+		    <p class="help-block">
+		    <a href="registro.html" style="text-decoration:none;">
+		    Registrarse
+		    </a>
+		    </p>
+		  </div>
+		  <button type="submit" class="btn btn-default" style="">Enviar</button>
+		</form>
+		
+	</div>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+
+ </body>

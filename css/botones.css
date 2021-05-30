@@ -1,0 +1,686 @@
+@media (min-width: 360px) {
+
+    div.posbtn{
+    position: relative;
+    margin-left: 8%; 
+    margin-top: 20px; 
+    }
+      .btn-sample { 
+      color: #ffffff; 
+      background-color: #5E99FF; 
+      border-color: #99999C; 
+      /*margin-right: 1%; */
+    } 
+
+    .btn-sample:hover, 
+    .btn-sample:focus, 
+    .btn-sample:active, 
+    .btn-sample.active, 
+    .open .dropdown-toggle.btn-sample { 
+      color: #ffffff; 
+      background-color: #6ACC1A; 
+      border-color: #99999C; 
+    } 
+     
+    .btn-sample:active, 
+    .btn-sample.active, 
+    .open .dropdown-toggle.btn-sample { 
+      background-image: none; 
+    } 
+
+    .btn-lg,
+    .btn-group-lg > .btn {
+      padding: 10px 50px;
+      font-size: 12px;
+      line-height: 1.3333333;
+      border-radius: 6px;
+    }
+     
+    .btn-sample.disabled, 
+    .btn-sample[disabled], 
+    fieldset[disabled] .btn-sample, 
+    .btn-sample.disabled:hover, 
+    .btn-sample[disabled]:hover, 
+    fieldset[disabled] .btn-sample:hover, 
+    .btn-sample.disabled:focus, 
+    .btn-sample[disabled]:focus, 
+    fieldset[disabled] .btn-sample:focus, 
+    .btn-sample.disabled:active, 
+    .btn-sample[disabled]:active, 
+    fieldset[disabled] .btn-sample:active, 
+    .btn-sample.disabled.active, 
+    .btn-sample[disabled].active, 
+    fieldset[disabled] .btn-sample.active { 
+      background-color: #5E99FF; 
+      border-color: #99999C; 
+    } 
+     
+    .btn-sample .badge { 
+      color: #5E99FF; 
+      background-color: #ffffff; 
+    }
+
+    .btn-registra { 
+      color: #ffffff; 
+      background-color: #5E99FF; 
+      border-color: #99999C; 
+      margin-left: 70%; 
+      margin-top: 10px;
+      padding: 10px 15px;
+      text-align: center;
+    } 
+     
+    .btn-registra:hover, 
+    .btn-registra:focus, 
+    .btn-registra:active, 
+    .btn-registra.active, 
+    .open .dropdown-toggle.btn-registra { 
+      color: #ffffff; 
+      background-color: #6ACC1A; 
+      border-color: #99999C; 
+    } 
+     
+    .btn-registra:active, 
+    .btn-registra.active, 
+    .open .dropdown-toggle.btn-registra { 
+      background-image: none; 
+    } 
+     
+    .btn-registra.disabled, 
+    .btn-registra[disabled], 
+    fieldset[disabled] .btn-registra, 
+    .btn-registra.disabled:hover, 
+    .btn-registra[disabled]:hover, 
+    fieldset[disabled] .btn-registra:hover, 
+    .btn-registra.disabled:focus, 
+    .btn-registra[disabled]:focus, 
+    fieldset[disabled] .btn-registra:focus, 
+    .btn-registra.disabled:active, 
+    .btn-registra[disabled]:active, 
+    fieldset[disabled] .btn-registra:active, 
+    .btn-registra.disabled.active, 
+    .btn-registra[disabled].active, 
+    fieldset[disabled] .btn-registra.active { 
+      background-color: #5E99FF; 
+      border-color: #99999C; 
+    } 
+     
+    .btn-registra .badge { 
+      color: #5E99FF; 
+      background-color: #ffffff; 
+    }
+
+    }
+
+@media (min-width: 360px) and (orientation:landscape) {
+
+    div.posbtn{
+    position: relative;
+    margin-left: 20%; 
+    margin-top: 1px; 
+    }
+      .btn-sample { 
+      color: #ffffff; 
+      background-color: #5E99FF; 
+      border-color: #99999C; 
+      /*margin-right: 1%; */
+    } 
+
+    .btn-sample:hover, 
+    .btn-sample:focus, 
+    .btn-sample:active, 
+    .btn-sample.active, 
+    .open .dropdown-toggle.btn-sample { 
+      color: #ffffff; 
+      background-color: #6ACC1A; 
+      border-color: #99999C; 
+    } 
+     
+    .btn-sample:active, 
+    .btn-sample.active, 
+    .open .dropdown-toggle.btn-sample { 
+      background-image: none; 
+    } 
+
+    .btn-lg,
+    .btn-group-lg > .btn {
+      padding: 10px 50px;
+      font-size: 12px;
+      line-height: 1.3333333;
+      border-radius: 6px;
+    }
+     
+    .btn-sample.disabled, 
+    .btn-sample[disabled], 
+    fieldset[disabled] .btn-sample, 
+    .btn-sample.disabled:hover, 
+    .btn-sample[disabled]:hover, 
+    fieldset[disabled] .btn-sample:hover, 
+    .btn-sample.disabled:focus, 
+    .btn-sample[disabled]:focus, 
+    fieldset[disabled] .btn-sample:focus, 
+    .btn-sample.disabled:active, 
+    .btn-sample[disabled]:active, 
+    fieldset[disabled] .btn-sample:active, 
+    .btn-sample.disabled.active, 
+    .btn-sample[disabled].active, 
+    fieldset[disabled] .btn-sample.active { 
+      background-color: #5E99FF; 
+      border-color: #99999C; 
+    } 
+     
+    .btn-sample .badge { 
+      color: #5E99FF; 
+      background-color: #ffffff; 
+    }
+
+    .btn-registra { 
+      color: #ffffff; 
+      background-color: #5E99FF; 
+      border-color: #99999C; 
+      margin-left: 70%; 
+      margin-top: -50px;
+      padding: 10px 15px;
+      text-align: center;
+    } 
+     
+    .btn-registra:hover, 
+    .btn-registra:focus, 
+    .btn-registra:active, 
+    .btn-registra.active, 
+    .open .dropdown-toggle.btn-registra { 
+      color: #ffffff; 
+      background-color: #6ACC1A; 
+      border-color: #99999C; 
+    } 
+     
+    .btn-registra:active, 
+    .btn-registra.active, 
+    .open .dropdown-toggle.btn-registra { 
+      background-image: none; 
+    } 
+     
+    .btn-registra.disabled, 
+    .btn-registra[disabled], 
+    fieldset[disabled] .btn-registra, 
+    .btn-registra.disabled:hover, 
+    .btn-registra[disabled]:hover, 
+    fieldset[disabled] .btn-registra:hover, 
+    .btn-registra.disabled:focus, 
+    .btn-registra[disabled]:focus, 
+    fieldset[disabled] .btn-registra:focus, 
+    .btn-registra.disabled:active, 
+    .btn-registra[disabled]:active, 
+    fieldset[disabled] .btn-registra:active, 
+    .btn-registra.disabled.active, 
+    .btn-registra[disabled].active, 
+    fieldset[disabled] .btn-registra.active { 
+      background-color: #5E99FF; 
+      border-color: #99999C; 
+    } 
+     
+    .btn-registra .badge { 
+      color: #5E99FF; 
+      background-color: #ffffff; 
+    }
+
+    }
+
+@media (min-width: 1000px){
+
+      div.posbtn{
+    position: relative;
+    margin-left: 70%; 
+    margin-top: 80px;
+    }
+      .btn-sample { 
+      color: #ffffff; 
+      background-color: #5E99FF; 
+      border-color: #99999C; 
+      margin-right: 5%;
+    } 
+
+    .btn-sample:hover, 
+    .btn-sample:focus, 
+    .btn-sample:active, 
+    .btn-sample.active, 
+    .open .dropdown-toggle.btn-sample { 
+      color: #ffffff; 
+      background-color: #6ACC1A; 
+      border-color: #99999C; 
+    } 
+     
+    .btn-sample:active, 
+    .btn-sample.active, 
+    .open .dropdown-toggle.btn-sample { 
+      background-image: none; 
+    } 
+
+    .btn-lg,
+    .btn-group-lg > .btn {
+      padding: 10px 22px;
+      font-size: 20px;
+      line-height: 1.3333333;
+      border-radius: 6px;
+    }
+     
+    .btn-sample.disabled, 
+    .btn-sample[disabled], 
+    fieldset[disabled] .btn-sample, 
+    .btn-sample.disabled:hover, 
+    .btn-sample[disabled]:hover, 
+    fieldset[disabled] .btn-sample:hover, 
+    .btn-sample.disabled:focus, 
+    .btn-sample[disabled]:focus, 
+    fieldset[disabled] .btn-sample:focus, 
+    .btn-sample.disabled:active, 
+    .btn-sample[disabled]:active, 
+    fieldset[disabled] .btn-sample:active, 
+    .btn-sample.disabled.active, 
+    .btn-sample[disabled].active, 
+    fieldset[disabled] .btn-sample.active { 
+      background-color: #5E99FF; 
+      border-color: #99999C; 
+    } 
+     
+    .btn-sample .badge { 
+      color: #5E99FF; 
+      background-color: #ffffff; 
+    }
+
+    .btn-registra { 
+      color: #ffffff; 
+      background-color: #5E99FF; 
+      border-color: #99999C; 
+      margin-left: 70%; 
+      margin-top: 10px;
+      padding: 10px 93px;
+      text-align: center;
+    } 
+     
+    .btn-registra:hover, 
+    .btn-registra:focus, 
+    .btn-registra:active, 
+    .btn-registra.active, 
+    .open .dropdown-toggle.btn-registra { 
+      color: #ffffff; 
+      background-color: #6ACC1A; 
+      border-color: #99999C; 
+    } 
+     
+    .btn-registra:active, 
+    .btn-registra.active, 
+    .open .dropdown-toggle.btn-registra { 
+      background-image: none; 
+    } 
+     
+    .btn-registra.disabled, 
+    .btn-registra[disabled], 
+    fieldset[disabled] .btn-registra, 
+    .btn-registra.disabled:hover, 
+    .btn-registra[disabled]:hover, 
+    fieldset[disabled] .btn-registra:hover, 
+    .btn-registra.disabled:focus, 
+    .btn-registra[disabled]:focus, 
+    fieldset[disabled] .btn-registra:focus, 
+    .btn-registra.disabled:active, 
+    .btn-registra[disabled]:active, 
+    fieldset[disabled] .btn-registra:active, 
+    .btn-registra.disabled.active, 
+    .btn-registra[disabled].active, 
+    fieldset[disabled] .btn-registra.active { 
+      background-color: #5E99FF; 
+      border-color: #99999C; 
+    } 
+     
+    .btn-registra .badge { 
+      color: #5E99FF; 
+      background-color: #ffffff; 
+    }
+
+    }
+
+ @media (min-width: 1400px){
+
+  div.posbtn{
+    position: relative; 
+    margin-left: 70%; 
+    margin-top: 89px;
+    /*border: 1px solid red;*/
+  }
+
+  .btn-sample { 
+  color: #ffffff; 
+  background-color: #5E99FF; 
+  border-color: #99999C; 
+  margin-right: 5%;
+} 
+
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #ffffff; 
+  background-color: #6ACC1A; 
+  border-color: #99999C; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 10px 25px;
+  font-size: 25px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #5E99FF; 
+  border-color: #99999C; 
+} 
+ 
+.btn-sample .badge { 
+  color: #5E99FF; 
+  background-color: #ffffff; 
+}
+
+.btn-registra { 
+  color: #ffffff; 
+  background-color: #5E99FF; 
+  border-color: #99999C; 
+  margin-left: 70%; 
+  margin-top: 50px;
+  padding: 10px 110px;
+  text-align: center;
+} 
+ 
+.btn-registra:hover, 
+.btn-registra:focus, 
+.btn-registra:active, 
+.btn-registra.active, 
+.open .dropdown-toggle.btn-registra { 
+  color: #ffffff; 
+  background-color: #6ACC1A; 
+  border-color: #99999C; 
+} 
+ 
+.btn-registra:active, 
+.btn-registra.active, 
+.open .dropdown-toggle.btn-registra { 
+  background-image: none; 
+} 
+ 
+.btn-registra.disabled, 
+.btn-registra[disabled], 
+fieldset[disabled] .btn-registra, 
+.btn-registra.disabled:hover, 
+.btn-registra[disabled]:hover, 
+fieldset[disabled] .btn-registra:hover, 
+.btn-registra.disabled:focus, 
+.btn-registra[disabled]:focus, 
+fieldset[disabled] .btn-registra:focus, 
+.btn-registra.disabled:active, 
+.btn-registra[disabled]:active, 
+fieldset[disabled] .btn-registra:active, 
+.btn-registra.disabled.active, 
+.btn-registra[disabled].active, 
+fieldset[disabled] .btn-registra.active { 
+  background-color: #5E99FF; 
+  border-color: #99999C; 
+} 
+ 
+.btn-registra .badge { 
+  color: #5E99FF; 
+  background-color: #ffffff; 
+}
+}
+
+ @media (min-width: 1600px){
+
+  div.posbtn{
+    position: relative; 
+    margin-left: 70%; 
+    margin-top: 120px;
+    /*border: 1px solid red;*/
+  }
+
+  .btn-sample { 
+  color: #ffffff; 
+  background-color: #5E99FF; 
+  border-color: #99999C; 
+  margin-right: 5%;
+} 
+
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #ffffff; 
+  background-color: #6ACC1A; 
+  border-color: #99999C; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 10px 25px;
+  font-size: 30px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #5E99FF; 
+  border-color: #99999C; 
+} 
+ 
+.btn-sample .badge { 
+  color: #5E99FF; 
+  background-color: #ffffff; 
+}
+
+.btn-registra { 
+  color: #ffffff; 
+  background-color: #5E99FF; 
+  border-color: #99999C; 
+  margin-left: 70%; 
+  margin-top: 50px;
+  padding: 10px 120px;
+  text-align: center;
+} 
+ 
+.btn-registra:hover, 
+.btn-registra:focus, 
+.btn-registra:active, 
+.btn-registra.active, 
+.open .dropdown-toggle.btn-registra { 
+  color: #ffffff; 
+  background-color: #6ACC1A; 
+  border-color: #99999C; 
+} 
+ 
+.btn-registra:active, 
+.btn-registra.active, 
+.open .dropdown-toggle.btn-registra { 
+  background-image: none; 
+} 
+ 
+.btn-registra.disabled, 
+.btn-registra[disabled], 
+fieldset[disabled] .btn-registra, 
+.btn-registra.disabled:hover, 
+.btn-registra[disabled]:hover, 
+fieldset[disabled] .btn-registra:hover, 
+.btn-registra.disabled:focus, 
+.btn-registra[disabled]:focus, 
+fieldset[disabled] .btn-registra:focus, 
+.btn-registra.disabled:active, 
+.btn-registra[disabled]:active, 
+fieldset[disabled] .btn-registra:active, 
+.btn-registra.disabled.active, 
+.btn-registra[disabled].active, 
+fieldset[disabled] .btn-registra.active { 
+  background-color: #5E99FF; 
+  border-color: #99999C; 
+} 
+ 
+.btn-registra .badge { 
+  color: #5E99FF; 
+  background-color: #ffffff; 
+}
+}
+
+ @media (min-width: 2500px){
+
+  div.posbtn{
+    position: relative; 
+    margin-left: 70%; 
+    margin-top: 120px;
+    /*border: 1px solid red;*/
+  }
+
+  .btn-sample { 
+  color: #ffffff; 
+  background-color: #5E99FF; 
+  border-color: #99999C; 
+  margin-right: 5%;
+} 
+
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #ffffff; 
+  background-color: #6ACC1A; 
+  border-color: #99999C; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 10px 25px;
+  font-size: 50px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #5E99FF; 
+  border-color: #99999C; 
+} 
+ 
+.btn-sample .badge { 
+  color: #5E99FF; 
+  background-color: #ffffff; 
+}
+
+.btn-registra { 
+  color: #ffffff; 
+  background-color: #5E99FF; 
+  border-color: #99999C; 
+  margin-left: 70%; 
+  margin-top: 100px;
+  padding: 10px 170px;
+  text-align: center;
+} 
+ 
+.btn-registra:hover, 
+.btn-registra:focus, 
+.btn-registra:active, 
+.btn-registra.active, 
+.open .dropdown-toggle.btn-registra { 
+  color: #ffffff; 
+  background-color: #6ACC1A; 
+  border-color: #99999C; 
+} 
+ 
+.btn-registra:active, 
+.btn-registra.active, 
+.open .dropdown-toggle.btn-registra { 
+  background-image: none; 
+} 
+ 
+.btn-registra.disabled, 
+.btn-registra[disabled], 
+fieldset[disabled] .btn-registra, 
+.btn-registra.disabled:hover, 
+.btn-registra[disabled]:hover, 
+fieldset[disabled] .btn-registra:hover, 
+.btn-registra.disabled:focus, 
+.btn-registra[disabled]:focus, 
+fieldset[disabled] .btn-registra:focus, 
+.btn-registra.disabled:active, 
+.btn-registra[disabled]:active, 
+fieldset[disabled] .btn-registra:active, 
+.btn-registra.disabled.active, 
+.btn-registra[disabled].active, 
+fieldset[disabled] .btn-registra.active { 
+  background-color: #5E99FF; 
+  border-color: #99999C; 
+} 
+ 
+.btn-registra .badge { 
+  color: #5E99FF; 
+  background-color: #ffffff; 
+}
+}
